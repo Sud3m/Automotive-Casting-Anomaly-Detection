@@ -21,7 +21,7 @@ Manual quality control in factories is time-consuming and prone to human error. 
 3. Run the training and evaluation script:
    ```bash
    python train.py
-   
+   ![Model Result](./Figure_1.png)
   --------------------------------------------------------------------------------
    
    # 🚗 Otomotiv Döküm Parçası Yapay Zeka Kalite Kontrolü
