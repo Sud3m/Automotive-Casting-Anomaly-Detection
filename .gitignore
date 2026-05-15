@@ -1,0 +1,8 @@
+casting_data/
+venv/
+bin/
+lib/
+include/
+.DS_Store
+__pycache__/
+*.py[cod]
