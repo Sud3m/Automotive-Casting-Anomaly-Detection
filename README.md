@@ -15,13 +15,21 @@ Manual quality control in factories is time-consuming and prone to human error. 
 * **Inpainting:** The AI successfully "reconstructed" defective areas by learning and mimicking surrounding metal textures.
 * **Heatmaps:** Defect locations are visualized at the pixel level using reconstruction error heatmaps.
 
+## 📊 Model Evaluation Results
+
+| Sample 1 | Sample 2 | Sample 3 |
+|:---:|:---:|:---:|
+| ![Result 1](./Figure_1.png) | ![Result 2](./Figure_2.png) | ![Result 3](./Figure_3.png) |
+| **Sample 4** | **Sample 5** | **Sample 6** |
+| ![Result 4](./Figure_4.png) | ![Result 5](./Figure_5.png) | ![Result 6](./Figure_6.png) |
+
 ## 🚀 How to Run
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-production-dataset).
 2. Place the dataset into the `casting_data` directory.
 3. Run the training and evaluation script:
    ```bash
    python train.py
-   ![Model Result](./Figure_1.png)
+   
   --------------------------------------------------------------------------------
    
    # 🚗 Otomotiv Döküm Parçası Yapay Zeka Kalite Kontrolü
